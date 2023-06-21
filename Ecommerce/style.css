@@ -1,0 +1,103 @@
+nav ul{
+    display: flex;
+    background-color: rgb(44, 173, 173);
+}
+
+nav ul li{
+    padding: 15px;
+    list-style: none;
+}
+/* body  {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIQ-_VqE0vwbwZPrrsDr4ITK3kSCzByxiW7A&usqp=CAU");
+  background-color: #cccccc;
+  background-image: opacity 0.5;
+} */
+
+nav ul a{
+    text-decoration: none;
+}
+
+
+.techproducts{
+    display: flex;
+    border-bottom: 5px solid gray;
+   
+}
+
+.prod1{
+    text-align: center;
+   
+}
+.prod1 img{
+    height: 70%;
+    width: 40%;
+}
+.srch{
+    height: 20px;
+}
+
+.btn {
+    
+        border: 2px solid black;
+        color: rgb(12, 12, 12);
+        
+        
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      
+        cursor: pointer;
+      
+      
+  }
+  form input{
+    margin: 15px;
+    
+  }
+  form label{
+   display: inline-block;
+   width: 400px;
+        text-align: center;
+    
+  }
+  .hftr{
+    position: relative;
+    bottom: 0;
+  }
+  
+  .ftr{
+    position: fixed;
+    bottom: 0;
+  }
+ 
+ 
+  .srch-btn{
+    margin-left: 450px;
+    margin-top: 10px;
+  }
+  .frm{
+    width: 40%;
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+   margin-top: 100px;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .prod1 img{
+    transition: 0.5s ease-in;
+  }
+  .prod1:hover img{
+    transform: scale(1.2);
+    cursor: pointer;
+  
+  }
+
+  .logo{
+    background-color: rgb(202, 61, 61);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+  }

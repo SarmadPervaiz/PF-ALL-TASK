@@ -1,0 +1,12 @@
+1. login form: 
+password
+forget password
+2. reg form:
+3. dashboard graphs
+4. data listing
+edithtml deletepopup
+5. configuration form
+6. export
+
+
+
